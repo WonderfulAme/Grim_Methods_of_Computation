@@ -1,7 +1,23 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
 [project]
-name = "grim-methods-of-computation"
-version = "0.1.0"
-description = "Add your description here"
+name = "grimMethods"
+version = "0.0.1"
+description = "A Python library for Machine Learning"
 readme = "README.md"
-requires-python = ">=3.12"
-dependencies = []
+requires-python = ">=3.7"
+license = {text = "MIT"}
+authors = [
+    {name = "Amelia Hoyos", email = "amelia327.hoyos@gmail.com"}
+]
+
+dependencies = [
+    "pandas",
+    "numpy>=1.21.6",
+    "matplotlib>=3.5.3",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

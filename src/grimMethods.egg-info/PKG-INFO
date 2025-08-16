@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: grimMethods
+Version: 0.0.1
+Summary: A Python library for Machine Learning
+Author-email: Amelia Hoyos <amelia327.hoyos@gmail.com>
+License: MIT
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: numpy>=1.21.6
+Requires-Dist: matplotlib>=3.5.3

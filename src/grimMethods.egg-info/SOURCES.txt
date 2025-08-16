@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+src/grimMethods/__init__.py
+src/grimMethods/neuron.py
+src/grimMethods.egg-info/PKG-INFO
+src/grimMethods.egg-info/SOURCES.txt
+src/grimMethods.egg-info/dependency_links.txt
+src/grimMethods.egg-info/requires.txt
+src/grimMethods.egg-info/top_level.txt
+test/test.py
